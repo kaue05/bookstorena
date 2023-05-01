@@ -1,0 +1,594 @@
+body {
+    background-color: #d9d9d9;
+    background-image: url(./imgs/banner-livraria.jpg);
+    background-repeat: repeat-x;
+    background-position: 0 8em;
+    font-family: 'League Spartan', sans-serif;
+}
+
+/*---------------------------------header---------------------------------*/
+header {
+    width: 100%;
+    height: 9em;
+    background: linear-gradient(#c03434 80%, #d9d9d9 50%);
+    position: fixed;
+    z-index: 5;
+    color: #d9d9d9;
+    margin: 0;
+}
+
+.cabecalho {
+    width: 50em;
+    height: 6em;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.logo {
+    display: inline-block;
+    width: 3.5em;
+    height: auto;
+    margin: 0.6em 0 0;
+}
+
+.pheader1 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1.8em 0 0 3em;
+}
+
+.pheader1 a {
+    color: #d9d9d9;
+    text-decoration: none;
+}
+
+.pheader1 a:hover {
+    color: #000000;
+}
+
+.caixa {
+    display: inline-block;
+    vertical-align: top;
+    margin: 2.5em 0 0 5em;
+    width: 35em;
+    height: 3em;
+    border-radius: 2em;
+    border: none;
+    padding: 0 1em;
+}
+
+.lupa {
+    display: inline-block;
+    vertical-align: top;
+    margin: 2.5em 0 0 -3.6em;
+    width: 3.1em;
+    height: 3em;
+    border-radius: 2em;
+    border: none;
+    background-image: url(./imgs/lupa1.png);
+    background-size: 2.5em;
+    background-repeat: no-repeat;
+    background-position: 0.4em 0.2em;
+    background-color: #dddddd;
+}
+
+.lupa:hover {
+    background-image: url(./imgs/lupa2.gif);
+    background-color: white;
+}
+
+.pheader2 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1.8em 0 0 3em;
+}
+
+.pheader2 a {
+    color: #d9d9d9;
+    text-decoration: none;
+}
+
+.pheader2 a:hover {
+    color: #000000;
+}
+
+.imagemcarrinho {
+    vertical-align: top;
+    margin: 1.8em 0 0 3em;
+}
+
+nav {
+    background-color: #d9d9d9;
+    margin: -0.03em 0 0 0;
+    width: auto;
+    height: 1.2em;
+}
+
+.menu {
+    color: #c03434;
+    font-size: 0.9em;
+    margin: 0.5em 0 0 2.5em;
+}
+
+.menu li {
+    color: #c03434;
+    margin: 0.3em 0 0 2em;
+    display: inline-block;
+}
+
+.menu a {
+    color: #c03434;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #000000;
+}
+
+/*------------------------------------main------------------------------------*/
+.div-titulos-pg-principal {
+    width: 69em;
+    height: auto;
+    margin: 3em auto 1em;
+}
+
+.titulos-pg-principal {
+    color: #c03434;
+    font-size: 2em;
+    padding: 0 0 0 0.5em;
+}
+
+.frase-imagem {
+    width: 47.5em;
+    height: 16.67em;
+    margin: 2em auto;
+    font-size: 2em;
+    background-color: #000000;
+}
+
+.div-frase-pg-principal {
+    display: inline-block;
+    width: 15em;
+    height: auto;
+    vertical-align: top;
+    color: #d9d9d9;
+    margin: 7em 0 0 0.5em;
+}
+
+.div-imagem-pg-principal {
+    display: inline-block;
+    margin: 0 0 0 6.7em;
+}
+
+.imagem-pg-principal {
+    width: 25em;
+    height: auto;
+}
+
+.frase-imagem-2 {
+    width: 47.5em;
+    height: 17.02em;
+    margin: 2em auto 0;
+    font-size: 2em;
+    background-color: #000000;
+}
+
+.div-frase-pg-principal-2 {
+    display: inline-block;
+    width: 20em;
+    height: auto;
+    vertical-align: top;
+    color: #d9d9d9;
+    margin: 7em 0 0 1em;
+}
+
+.autor-frase-pg-principal-2 {
+    margin: 0 0 0 8em;
+}
+
+.div-imagem-pg-principal-2 {
+    display: inline-block;
+    margin: 0 0 0 0;
+}
+
+.imagem-pg-principal-2 {
+    width: 25em;
+    height: auto;
+}
+
+
+/*---------------------produtos---------------------*/
+.titulo-principal1 {
+    font-size: 10em;
+    color: #d9d9d9;
+    padding: 0.9em 0 0 0;
+    width: 10em;
+    height: 2.45em;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    font-size: 10em;
+    color: #d9d9d9;
+    padding: 0.9em 0 0.4em 0;
+    width: 10em;
+    height: 2.45em;
+    margin: 0 auto;
+}
+
+.titulo-principal1 h1 {
+    padding: 0.3em 0 0 0.2em;
+    margin: 0 auto;
+}
+
+.titulo-principal h2 {
+    font-size: 0.9em;
+    padding: 0.9em 0 0 0.2em;
+    margin: 0 auto;
+}
+
+.produtos-mv-fc-mi-ro-lf {
+    width: 69em;
+    height: auto;
+    margin: 0 auto;
+}
+
+.produtos-mv-fc-mi-ro-lf li {
+    display: inline-block;
+    width: 15em;
+    height: 30em;
+    vertical-align: top;
+    margin: 1em 1em;
+    border-radius: 2em;
+    border: none;
+    box-shadow: 0em 0em 2em 0.5em rgb(205, 205, 205);
+}
+
+.div-imgs-mv-fc-mi-ro-lf {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imgs-mv-fc-mi-ro-lf {
+    width: auto;
+    height: 17em;
+    padding: 1.5em 0 0 0;
+}
+
+.div-m-mv-fc-mi-ro-lf {
+    text-align: left;
+}
+
+.m-mv-fc-mi-ro-lf {
+    color: #7e7e7e;
+    font-size: 1.4em;
+    padding: 0.6em 0 0 0.5em;
+}
+
+.valor-mv-fc-mi-ro-lf {
+    position: absolute;
+    margin: 6em 0 0 0.5em;
+    color: #c03434;
+    font-size: 1.4em;
+}
+
+.tabelas {
+    width: 75em;
+    height: auto;
+    margin: 5em auto 0;
+}
+
+.div-tabela-opcoes {
+    position: absolute;
+    text-align: center;
+    margin: 3em 15em 0;
+}
+
+.tabela-opcoes {
+    text-align: center;
+    width: 10em;
+    height: auto;
+}
+
+.opcoes {
+    color: #c03434;
+    font-size: 1.5em;
+    padding: 0 0 1em;
+}
+
+.tabela-opcoes td {
+    vertical-align: middle;
+    padding: 0.2em 1em 1em 1em;
+}
+
+.tabela-opcoes td a {
+    color: #c03434;
+    text-decoration: none;
+}
+
+.tabela-opcoes td a:hover {
+    color: #000000;
+}
+
+.tabela-horarios {
+    text-align: center;
+    font-size: 1.4em;
+    width: 20em;
+    height: auto;
+    border: solid black 0.02em;
+    margin: 0 28.5em;
+}
+
+.tabela-horarios tr {
+    width: auto;
+    height: 1.4em;
+    border: solid black 0.02em;
+}
+.tabela-horarios th {
+    background-color: #c03434;
+    color: #d9d9d9;
+    padding: 0.2em 0 0 0;
+    border: solid black 0.02em;
+}
+
+.tabela-horarios td {
+    color: #c03434;
+    padding: 0.2em 0 0 0;
+    border: solid black 0.02em;
+}
+
+/*---------------------entrar/cadastrar---------------------*/
+
+.form-entrar {
+    width: 30em;
+    height: 15em;
+    margin: 0 auto;
+    box-shadow: 0 0 1em 1em #b7b7b7;
+    border-radius: 1.5em;
+    border: none;
+}
+
+.fieldset-entrar {
+    padding: 1em;
+}
+
+#senha {
+    width: 12em;
+    height: 2em;
+    border-radius: 2em;
+    border: none;
+    padding: 0 0 0 1em;
+}
+
+.p-fieldset-entrar {
+    margin: 0.8em 0 0 10.2em;
+}
+
+.p-form-entrar{
+    margin: 0 auto;
+    color: #c03434;
+    text-decoration: underline;
+}
+
+.p-form-entrar:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.formulario {
+    width: 50em;
+    height: auto;
+    margin: 0 auto;
+}
+
+.caixa-label {
+    margin: 0 0 2em 0;
+}
+
+label {
+    color: #c03434;
+    font-size: 2em;
+}
+
+#nomesobrenome {
+    width: 40em;
+    height: 2.5em;
+    border-radius: 2em;
+    border: none;
+    padding: 0 1em;
+}
+
+#email {
+    width: 30em;
+    height: 2.5em;
+    border-radius: 2em;
+    border: none;
+    padding: 0 1em;
+}
+
+#telefone {
+    width: 15em;
+    height: 2.5em;
+    border-radius: 2em;
+    border: none;
+    padding: 0 1em;
+}
+
+#mensagem {
+    width: 40em;
+    height: 20em;
+    border-radius: 2em;
+    border: none;
+    padding: 1em;
+}
+
+legend {
+    color: #c03434;
+    font-size: 2em;
+}
+
+#ficcao-cientifica {
+    font-size: 3em;
+}
+
+select {
+    width: 8em;
+    height: 2em;
+}
+
+.botao-enviar {
+    margin: 3em 0 3em 15em;
+}
+
+.enviar-formulario {
+    width: 10em;
+    height: 1.5em;
+    color: #d9d9d9;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #c03434;
+    border-radius: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+/*---------------------minha-conta---------------------*/
+
+.div-dados-cadastrais {
+    width: 45em;
+    height: auto;
+    margin: 0 auto;
+}
+
+.dados-cadastrais {
+    font-size: 1.8em;
+    color: #c03434;
+    margin: 0 0 2em 9em;
+}
+
+.titulo-dados-cadastrais {
+    font-size: 1.4em;
+    color: #c03434;
+}
+
+.informacao-dados-cadastrais {
+    font-size: 1.2em;
+    color: #000000;
+    margin: 0 0 1em 0;
+}
+
+.editar-dados-cadastrais a {
+    position: absolute;
+    margin: 0.5em 0 0 39em;
+    color: #c03434;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.icone-editar {
+    position: absolute;
+    width: 2.2em;
+    height: 2.2em;
+    margin: 0 0 0 51em;
+    padding: 0 0 1em 0;
+    background-image: url(./livraria_mc/imgs/iconeeditar.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 2em;
+    background-color: #d9d9d9;
+    border: navajowhite;
+}
+
+.icone-editar:hover {
+    background-image: url(./livraria_mc/imgs/iconeeditarpreto.png);
+    cursor: pointer;
+}
+
+/*---------------------------------footer---------------------------------*/
+footer {
+    width: 100%;
+    height: 15em;
+    background-color: #c03434;
+    color: #d9d9d9;
+    margin: 8em 0 0 0;
+}
+
+.div-cadastre-se {
+    width: 60em;
+    height: auto;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.texto-cadastre-se {
+    display: inline-block;
+}
+
+.cadastre-se {
+    font-size: 2em;
+    padding: 0.6em 0 0 0;
+}
+
+.receba {
+    font-size: 0.8em;
+}
+
+.div-email-footer {
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 0 0 3em;
+}
+
+.email-footer {
+    width: 25em;
+    height: 3em;
+    margin: 0em 0 0 0;
+    padding: 0 1em;
+    border-radius: 2em;
+    border: none;
+}
+
+.botao-enviar-footer {
+    width: 8em;
+    height: 3em;
+    margin: 1.1em 0 0 0;
+    border-radius: 2em;
+    border: none;
+    color: #c03434;
+    font-weight: bold;
+    background-color: #dddddd;
+    cursor: pointer;
+}
+
+.icones {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1em 0 0 2em;
+}
+
+.icones50 {
+    display: inline-block;
+    width: 2em;
+    height: auto;
+    padding: 0 0.4em;
+}
+
+.div-formas-de-pagamento {
+    width: 30em;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.formas-de-pagamento {
+    font-size: 1.8em;
+    padding: 1em 0 0 0;
+}
+
+.bandeiras-pagamento {
+    width: 2em;
+    height: auto;
+    padding: 2em 0.6em;
+}
